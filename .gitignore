@@ -1,22 +1,26 @@
-# Entorno virtual
+# =========================
+# Python / Django
+# =========================
 .venv/
-
-# Python
 __pycache__/
 *.py[cod]
 *.sqlite3
-
-# Django
 *.log
 media/
 staticfiles/
 
-# Variables de entorno
-.env
+# =========================
+# Frontend (React / Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+frontend/.vite/
 
-# VS Code
+# =========================
+# IDE / OS
+# =========================
 .vscode/
-
-# Sistema
 .DS_Store
 Thumbs.db
